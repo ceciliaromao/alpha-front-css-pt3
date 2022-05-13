@@ -1,0 +1,30 @@
+.boxmodel {
+  width: 200px;
+  height: 200px;
+  background-color:#9fc4e7;
+  margin: 20px;
+  padding: 20px;
+  border: 10px solid #feedbb;
+}
+
+.overflow-hidden, .overflow-visible, .overflow-scroll, .overflow-auto {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
